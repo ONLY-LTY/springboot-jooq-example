@@ -19,6 +19,7 @@ public class UserController {
 //
 //    private final static Logger logger = Logger.getLogger(UserController.class);
 //
+
 //    @RequestMapping(value = "/find")
 //    public ResponseEntity find() {
 //        logger.info("findUserInfo===========");
@@ -29,9 +30,10 @@ public class UserController {
     DSLContext dsl;
 
     @RequestMapping(value = "/book")
-    public ResponseEntity find(Integer id){
+    public Object find(Integer id){
         MainRecord record  = dsl.selectFrom(MAIN).where(MAIN.NUMBER.eq(id)).fetchOne();
-        return new ResponseEntity(null,HttpStatus.OK);
+        return ResponseEntity.ok(record);
     }
 }
+
 
