@@ -1,4 +1,4 @@
-package me.ele.jooq;
+package me.lty.jooq;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.jooq.*;

@@ -38,7 +38,7 @@
  *
  *
  */
-package me.ele.jooq;
+package me.lty.jooq;
 
 import org.jooq.ExecuteContext;
 import org.jooq.SQLDialect;

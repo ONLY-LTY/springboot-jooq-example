@@ -104,7 +104,7 @@
                             </goals>
                         </execution>
                     </executions>
-                    <!-- Manage the plugin's dependency. In this example, we'll use a PostgreSQL database -->
+                    <!-- Manage the plugin's dependency. In this example, we'll use a MySQL database -->
                     <dependencies>
                         <dependency>
                             <groupId>mysql</groupId>
@@ -128,11 +128,10 @@
                             <database>
                                 <name>org.jooq.util.mysql.MySQLDatabase</name>
                                 <includes>.*</includes>
-                                <excludes></excludes>
                                 <inputSchema>test</inputSchema>  <!--数据库名-->
                             </database>
                             <target>
-                                <packageName>me.ele.data</packageName>
+                                <packageName>me.lty.data</packageName>
                                 <directory>src/main/java</directory>
                             </target>
                         </generator>

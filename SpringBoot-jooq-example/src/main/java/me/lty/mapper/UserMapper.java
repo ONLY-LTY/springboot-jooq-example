@@ -1,6 +1,6 @@
-package me.ele.mapper;
+package me.lty.mapper;
 
-import me.ele.mode.User;
+import me.lty.mode.User;
 
 /**
  * Created by LTY on 15/12/28.

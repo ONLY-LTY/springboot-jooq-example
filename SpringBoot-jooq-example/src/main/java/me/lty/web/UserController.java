@@ -1,13 +1,13 @@
-package me.ele.web;
+package me.lty.web;
 
-import me.ele.data.tables.records.MainRecord;
+import me.lty.data.tables.records.MainRecord;
 import org.jooq.DSLContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import static me.ele.data.Tables.*;
+import static me.lty.data.Tables.*;
 /**
  * Created by LTY on 15/12/28.
  */

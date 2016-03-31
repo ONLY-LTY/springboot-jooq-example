@@ -1,4 +1,4 @@
-package me.ele.mode;
+package me.lty.mode;
 
 /**
  * Created by LTY on 15/12/28.
